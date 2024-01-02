@@ -1,0 +1,24 @@
+{
+  "name": "cross-platform-cbt",
+  "version": "1.0.1",
+  "description": "Cross platform development for Ourtoga CBT",
+  "main": "main-v1.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "productName": "CBT Ourtoga Linux",
+    "appId": "Ourtoga",
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "author": "NSDAP, feuerstern",
+  "license": "MIT",
+
+  "devDependencies": {
+    "electron-builder": "^24.9.1"
+  }
+}

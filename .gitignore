@@ -1,0 +1,79 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+ 
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+migrate-next-js/.next/types/app/layout.ts
+migrate-next-js/.next/app-build-manifest.json
+migrate-next-js/.next/trace
+migrate-next-js/.next/cache/webpack/client-development/0.pack
+migrate-next-js/.next/cache/webpack/client-development/1.pack
+migrate-next-js/.next/cache/webpack/client-development/2.pack
+migrate-next-js/.next/cache/webpack/client-development/3.pack
+migrate-next-js/.next/cache/webpack/client-development/4.pack
+migrate-next-js/.next/cache/webpack/client-development/5.pack
+migrate-next-js/.next/cache/webpack/client-development/6.pack
+migrate-next-js/.next/cache/webpack/client-development/7.pack
+migrate-next-js/.next/cache/webpack/client-development/8.pack
+migrate-next-js/.next/cache/webpack/client-development/index.pack
+migrate-next-js/.next/cache/webpack/client-development/index.pack.old
+migrate-next-js/.next/cache/webpack/server-development/0.pack
+migrate-next-js/.next/cache/webpack/server-development/1.pack
+migrate-next-js/.next/cache/webpack/server-development/2.pack
+migrate-next-js/.next/cache/webpack/server-development/3.pack
+migrate-next-js/.next/cache/webpack/server-development/4.pack
+migrate-next-js/.next/cache/webpack/server-development/5.pack
+migrate-next-js/.next/cache/webpack/server-development/6.pack
+migrate-next-js/.next/cache/webpack/server-development/7.pack
+migrate-next-js/.next/cache/webpack/server-development/8.pack
+migrate-next-js/.next/cache/webpack/server-development/9.pack
+migrate-next-js/.next/cache/webpack/server-development/10.pack
+migrate-next-js/.next/cache/webpack/server-development/11.pack
+migrate-next-js/.next/cache/webpack/server-development/12.pack
+migrate-next-js/.next/cache/webpack/server-development/13.pack
+migrate-next-js/.next/cache/webpack/server-development/index.pack
+migrate-next-js/.next/cache/webpack/server-development/index.pack.old
+migrate-next-js/.next/server/app-paths-manifest.json
+migrate-next-js/.next/server/client-reference-manifest.js
+migrate-next-js/.next/server/client-reference-manifest.json
+migrate-next-js/.next/server/flight-server-css-manifest.js
+migrate-next-js/.next/server/flight-server-css-manifest.json
+migrate-next-js/.next/server/webpack-runtime.js
+migrate-next-js/.next/static/chunks/app-client-internals.js
+migrate-next-js/.next/static/chunks/main-app.js
+migrate-next-js/.next/static/chunks/webpack.js
+migrate-next-js/.next/static/chunks/app/layout.js
+migrate-next-js/.next/static/css/app/layout.css
+migrate-next-js/.next/static/webpack/webpack.08bbe3671c2a994f.hot-update.js
