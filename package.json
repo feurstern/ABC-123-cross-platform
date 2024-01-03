@@ -1,21 +1,46 @@
 {
   "name": "cross-platform-cbt",
+  "author" : "NSDAP <naziincolour123@gmail.com>",
   "version": "1.0.1",
   "description": "Cross platform development for Ourtoga CBT",
   "main": "main-v1.js",
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "electron-builder",
+    "mac" :"electron-builder --mac"
   },
   "build": {
     "productName": "CBT Ourtoga Linux",
     "appId": "Ourtoga",
-    "linux": {
-      "target": "AppImage"
+    "icon" : "Assets/img/ourtoga.icns",
+    "mac": {
+      "target": ["dmg"],
+      "identity" : null
+    },
+    "dmg" : {
+      "background" : "Assets/img/ourtoga-03.tiff",
+      "icon" : "Assets/img/ourtoga.icns",
+      "iconSize" : 75,
+      "window" :{
+        "width" : 544,
+        "height" : 408
+      },
+      "contents": [
+        {
+          "x": 450,
+          "y": 280
+        },
+        {
+          "x": 450,
+          "y": 170,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
     }
+      
   },
-  "author": "NSDAP, feuerstern",
   "license": "MIT",
 
   "devDependencies": {

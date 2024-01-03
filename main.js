@@ -204,3 +204,6 @@ app.on('will-quit', () => {
     globalShortcut.unregisterAll();
 });
 
+
+
+// REG-eYnLvUFfHkIH
