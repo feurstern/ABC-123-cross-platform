@@ -1,30 +1,32 @@
 {
   "name": "cross-platform-cbt",
-  "author" : "NSDAP <naziincolour123@gmail.com>",
-  "version": "1.0.1",
+  "author": "NSDAP <naziincolour123@gmail.com>",
+  "version": "1.0.2",
   "description": "Cross platform development for Ourtoga CBT",
   "main": "main-v1.js",
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
-    "mac" :"electron-builder --mac"
+    "mac": "electron-builder --mac"
   },
   "build": {
-    "productName": "CBT Ourtoga Linux",
+    "productName": "CBT Ourtoga OSX",
     "appId": "Ourtoga",
-    "icon" : "Assets/img/ourtoga.icns",
+    "icon": "Assets/img/ourtoga.icns",
     "mac": {
-      "target": ["dmg"],
-      "identity" : null
+      "target": [
+        "dmg"
+      ],
+      "identity": null
     },
-    "dmg" : {
-      "background" : "Assets/img/ourtoga-03.tiff",
-      "icon" : "Assets/img/ourtoga.icns",
-      "iconSize" : 75,
-      "window" :{
-        "width" : 544,
-        "height" : 408
+    "dmg": {
+      "background": "Assets/img/ourtoga-03.tiff",
+      "icon": "Assets/img/ourtoga.icns",
+      "iconSize": 75,
+      "window": {
+        "width": 544,
+        "height": 408
       },
       "contents": [
         {
@@ -39,10 +41,8 @@
         }
       ]
     }
-      
   },
   "license": "MIT",
-
   "devDependencies": {
     "electron-builder": "^24.9.1"
   }
